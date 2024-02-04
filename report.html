@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body
+        {
+            background-image:url('bgdisplay.jpg');
+            background-repeat:no-repeat;
+            background-size:cover;
+            font-size:60px;
+            justify-content:center;
+            margin-top:500px;
+    
+        }
+        input[type="text"]
+        {
+            width:300px;
+            height:60px;
+            font-size:40px;
+        }
+        input[type="number"]
+        {
+            width:300px;
+            height:60px;
+            font-size:40px;
+        }
+        .wrapper
+        {
+            height:300px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        input[type="submit"]
+    {
+        height:60px;
+        width:250px;
+        font-size:50px;
+    }
+            </style>
+    <title>Form</title>
+</head>
+<body>
+    <div class="wrapper">
+    <form action="report_insert.php" method="post">
+        PATIENT_ID<input type="text" name="p_id"><br><br>
+           NAME:<input type="text" name="name"><br><br>
+               AGE: <td><input type="number" name="age"><br><br>
+         Gender:<input type="text" name="gender"><br><br>
+            Test Name:<input type="text" name="tname"><br><br>
+            Result:<input type="text" name="result"><br><br>
+            <input type="submit" name="submitval" value="Submit">
+          
+    </form>
+    </div>
+</body>
+</html>

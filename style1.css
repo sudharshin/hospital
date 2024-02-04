@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Roboto:wght@100&display=swap');
+body{
+    background-color:#344a72;
+    font-family:'Roboto',sans-serif;
+    }
+    .signup{
+    width:360px;
+    height:620px;
+    margin:auto;
+    background-color:white;
+    background-position:3px;
+    }
+    .login{
+    width:360px;
+    height:280px;
+    margin:auto;
+    background-color:white;
+    background-position:3px;
+    }
+    h1{
+    text-align:center;
+    padding-top:15px;
+    }
+    form{
+    width:320px;
+    margin-left:20px;
+    }
+    form label{
+    display:flex;
+    margin-top:20px;
+    font-size:18px;
+    }
+    form input{
+    width:100%;
+    padding:5px;
+    border:1px solid gray;
+    border-radius:5px;
+    outline:none;
+    }
+    input[type="button"]{
+    width:320px;
+    height:35px;
+    margin-top:10px;
+    background-color:#20B2AA;
+    color:white;
+    font-size:20px;
+    }
+    p{
+    text-align:center;
+    padding-top:20px;
+    font-size:20px;
+    }
+    .p1{
+    text-align:center;
+    color:white;
+    font-size:15px;
+    margin-top:-10px;
+    }
+    .p1 a{
+    color:teal;
+    }
+    

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <style>
+    body
+    {
+        background-image:url('bgdisplay.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        font-size:60px;
+        justify-content:center;
+        margin-top:500px;
+
+    }
+    input[type="text"]
+    {
+        width:200px;
+        height:60px;
+        font-size:40px;
+    }
+    .wrapper
+    {
+        height:300px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    input[type="submit"]
+    {
+        height:60px;
+        width:250px;
+        font-size:50px;
+    }
+        </style>
+     <title>form</title>
+ </head>
+ <body>
+    <div class="wrapper">
+    <form action="insert.php" method="post">
+       NAME:<input type="text" name="name"><br><Br>
+         DOCTOR ID:<input type="text" name="d_id"><br><br>
+         GENDER:<input type="text" name="gender"><br><br>
+         YEARS OF EXPERIENCE:<input type="text" name="yrs_of_exp"><br><br>
+         AGE:<input type="text" name="age"><br><br>
+         SPECIALIZATION:<input type="text" name="specialization"><br><br>
+         <input type="submit" name="submitval" value="submit">
+     </form>
+     </div>
+ </body>
+</html> 

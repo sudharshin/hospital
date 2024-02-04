@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+            <head>
+                  <style>
+                        body
+                        {
+                            background-image:url('bgdisplay.jpg');
+                            background-repeat:no-repeat;
+                            background-size:cover;
+                            font-size:60px;
+                            justify-content:center;
+                            margin-top:500px;
+                    
+                        }
+                        input[type="text"]
+                        {
+                            width:300px;
+                            height:60px;
+                            font-size:40px;
+                        }
+                        .wrapper
+                        {
+                            height:300px;
+                            display:flex;
+                            align-items:center;
+                            justify-content:center;
+                        }
+                        input[type="submit"]
+                        {
+                        height:60px;
+                        width:250px;
+                        font-size:50px;
+                        }
+                            </style>
+      <title>form</title>
+
+            </head>
+
+            <body>
+                  <div class="wrapper">
+            <form action="billing_insert.php" method="post">
+
+        INPATIENT_ID:<input type="text" name="ip_id"><br><br>
+
+                   INPATIENT NAME:<input type="text" name="name"><br><br>
+
+            BILL NO:<input type="text" name="billno"><br><br>
+
+            NO OF DAYS:<input type="text" name="days"><br><br>
+
+            ROOM RENT:<input type="text" name="roomrent"><br><br>
+
+            MEDICAL EXPENSES:<input type="text" name="medical"><br><br>
+
+            LAB CHARGES:<input type="text" name="lab"><br><br>
+
+            <input type="submit" name="submitval" value="submit">
+
+            </form>
+            </div>
+            </body>
+
+</html>
